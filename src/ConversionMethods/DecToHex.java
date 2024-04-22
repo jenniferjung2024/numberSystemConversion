@@ -6,13 +6,11 @@ public class DecToHex {
 		String hexValue = "";
 		
 		int num =  GetintValue.stringToInt(decimalString);
-		
-		System.out.println(num);
-		
+			
 		int firstValue = num / 16;
 		int rem = num % 16;
 		hexValue += firstValue;
-		
+	
 		if (rem < 10) {
 			hexValue = hexValue + rem;
 		}
@@ -21,8 +19,11 @@ public class DecToHex {
 			
 			char charValue = (char) ('A' + (rem - 10));
 			
-			hexValue = hexValue + charValue;			
-		}			
+			hexValue = hexValue + charValue;						
+		}
+		
+		if (hexValue.charAt(0) == '0')  // Binary number 1011 produces hexadecimal number 0B if this condition is not put in
+			hexValue = hexValue.substring(1);
 
 		return hexValue;
 	}

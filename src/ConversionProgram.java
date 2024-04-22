@@ -37,9 +37,12 @@ public class ConversionProgram {
 					}
 				}
 				
+				String decimal = BiToDec.binaryToDecimal(userInput);
+				String hex = BiToHex.binaryToHexadecimal(userInput);
+
 				System.out.println("Binary number: " + userInput);
-				System.out.println("Hexadecimal number: [hexadecimal-number]");
-				System.out.println("Decimal number: [decimal-number]\n");
+				System.out.println("Hexadecimal number: " + hex);
+				System.out.println("Decimal number: " + decimal + "\n");
 				Menu.printMenu();
 				userSelection = scnr.nextInt();
 				}		
