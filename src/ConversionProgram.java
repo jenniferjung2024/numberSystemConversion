@@ -104,9 +104,10 @@ public class ConversionProgram {
 				}
 				
 				String hex = DecToHex.decimalToHexidecimal(userInput);
+				String binary = DecToBi.decimalToBinary(userInput);
 				
 				System.out.println("Decimal number: " + userInput);
-				System.out.println("Binary number: [binary-number]");
+				System.out.println("Binary number: " + binary);
 				System.out.println("Hexadecimal number: " + hex + "\n");
 				Menu.printMenu();
 				userSelection = scnr.nextInt();

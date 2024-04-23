@@ -6,7 +6,7 @@ public class BiToDec {
 		
 		int num = GetintValue.stringToInt(binaryString);
 		
-        int ans = 0, rem = 0, temp = num;
+        int ans = 0, rem = 0;
         
         int i = 0;
         
