@@ -72,9 +72,12 @@ public class ConversionProgram {
 					}
 				}
 				
+				String decimalNum = HexToDec.hexToDecimal(userInput);
+				String binaryNum = HexToBi.hexadecimalToBinary(userInput);
+				
 				System.out.println("Hexadecimal number: " + userInput);
-				System.out.println("Binary number: [binary-number]");
-				System.out.println("Decimal number: [decimal-number]\n");
+				System.out.println("Binary number: " + binaryNum);
+				System.out.println("Decimal number: " + decimalNum + "\n");
 				Menu.printMenu();
 				userSelection = scnr.nextInt();
 				}
