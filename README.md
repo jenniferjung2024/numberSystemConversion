@@ -59,4 +59,10 @@ If menu item 4 is entered, the program will be terminated.
 **Grading**
 The project is graded based on implementation, modularity, performance, and coding style.
 
+----
+
+![image](https://github.com/jenniferjung2024/numberSystemConversion/assets/164530692/36286cf4-c7bb-4183-9b2c-ebb42bc1a887)
+
+
+
 
